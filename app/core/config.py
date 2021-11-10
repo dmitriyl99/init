@@ -10,9 +10,6 @@ load_dotenv()
 class Settings(BaseSettings):
     PROJECT_NAME: str
 
-    SERVER_NAME: str
-    SERVER_HOST: AnyHttpUrl
-
     POSTGRES_SERVER: str
     POSTGRES_USER: str
     POSTGRES_PASSWORD: str
